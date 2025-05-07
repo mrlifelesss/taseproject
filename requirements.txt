@@ -1,0 +1,12 @@
+boto3
+botocore
+PyPDF2
+pdfplumber
+bs4        
+requests
+google-cloud-aiplatform
+google-generativeai
+chardet
+httpx
+mimetypes
+python-dotenv

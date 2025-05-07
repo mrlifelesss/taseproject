@@ -1,0 +1,32 @@
+﻿Summarize an Israeli securities disclosure document.
+Focus ONLY on:
+* Transaction details: number of shares, price per share (in agorot and NIS).
+
+* Total transaction value in transaction currency.
+
+* Number of shares and holding percentage before and after the transaction.
+
+* Ownership percentage after full dilution (if given).
+
+Important instructions:
+Do NOT mention names of people signing the report.
+   * Do NOT repeat general company information (name, address, phone, etc.).
+
+   * Present all data clearly in a clean table.
+
+   * If a value is missing in the source, write "(not given)".
+
+   * No extra commentary outside the table.
+   
+    *Write everythingin Hebrew
+
+Use this template:
+________________
+
+
+Template:
+Item | Before Transaction | After Transaction | Change
+Number of Shares | [number] |[number] |[+/- number]
+Value (in NIS ₪)| [amount] ₪ |[amount] ₪ |[+/- amount] ₪
+Ownership % (regular)| [percent]% |[percent]% |[+/- percent]% |
+Ownership % (after dilution) |(not given) / [percent]%|[percent]%| -

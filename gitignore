@@ -1,0 +1,24 @@
+# Hide environment variables
+.env
+
+# Hide sensitive credentials folder
+credentials/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+ENV/
+*.egg-info/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
