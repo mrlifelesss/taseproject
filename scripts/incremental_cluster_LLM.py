@@ -105,7 +105,7 @@ def main():
     parser.add_argument("--clean-dir", required=True, help="Folder of cleaned txt files")
     parser.add_argument("--csv-path", required=True, help="CSV file listing doc_id to process")
     parser.add_argument("--model-name", default="gemini-2.0-flash-lite", help="Gemini model name")
-    parser.add_argument("--api-key",default  = "AIzaSyA1NptQkNBxjgFG9Lop_NrfjVKq7-qg5HU", help="LLM API key")
+    parser.add_argument("--api-key",default  = "os.getenv("GEMINI_API_KEY")", help="LLM API key")
     parser.add_argument("--excerpt-length", type=int, default=500, help="Max chars per excerpt")
     parser.add_argument("--output", default="incremental_clusters.json", help="Output JSON file")
     args = parser.parse_args()
